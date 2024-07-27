@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Title -->
-    <title>Elora | Personal Portfolio</title>
+    <title>Greenfield | Personal Portfolio</title>
 
     <!-- Font-Awesome CSS -->
     <link rel="stylesheet" href="assets/vendors/font-awesome/css/all.min.css" />
@@ -39,7 +39,7 @@
 
         <!-- Logo -->
         <a class="logo" href="#home">
-            <h2> Elora </h2> 
+            <h2> Greenfield Obasi </h2> 
             <!-- <img src="assets/images/logo.png" alt="logo" /> -->
         </a>
         <!-- Logo End -->
@@ -70,7 +70,7 @@
 
             <div class="content">
                 <div class="text">
-                    <h2>hi there!</h1>
+                    <h2>hi there!</h2>
                     <h1>I Am a <span class="typing-text"></span></h1>
                     <p>Creative web developer offering 4+ years of experience providing high-impact web solutions for many different organizations.</p>
                     <a href="#" class="btn">about me <i class="fas fa-user"></i></a>
@@ -95,12 +95,12 @@
         <div class="box-container">
 
             <div class="image">
-                <img src="assets/images/About/About-Image.png" alt="About-Image" />
+                <img src="assets/images/About/Greenfield_Obasi.jpg" alt="About-Image" />
             </div>
     
             <div class="content">
 
-                <h2>My name is elora.</h2>
+                <h2>My name is Greenfield.</h2>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                     Recusandae aut adipisci necessitatibus veniam, provident 
                     vero architecto praesentium, non sequi libero corrupti molestias. 
@@ -109,9 +109,7 @@
                 <div class="about-info">
 
                     <div class="info">
-                        <h4>age: <span>23</span></h4>
-                        <h4>gender: <span>female</span></h4>
-                        <h4>language: <span>urdu, english</span></h4>
+                        <h4>language: <span>english</span></h4>
                         <h4>work: <span>Front-End developer</span></h4>
                         <h4>freelance: <span>available</span></h4>
                         <a href="#" class="btn">download CV <i class="fas fa-download"></i></a>
@@ -352,9 +350,9 @@
 
             <ul class="controls">
                 <li class="button btn active" data-filter="all">all</li>
-                <li class="button btn" data-filter="web">web development</li>
-                <li class="button btn" data-filter="design">graphic design</li>
-                <li class="button btn" data-filter="photography">photography</li>
+                <li class="button btn" data-filter="web">Web development</li>
+                <li class="button btn" data-filter="software">Software</li>
+                <li class="button btn" data-filter="AI">AI & Data Science</li>
             </ul>
     
             <div class="box-container">
@@ -380,7 +378,7 @@
                 <div class="portfolio-item image design">
                     <img src="assets/images/Portfolio/portfolio-3.png" alt="Portfolio-Image" />
                     <div class="content">
-                        <h4>graphic design</h4>
+                        <h4>Software</h4>
                         <p>category</p>
                         <a data-effect="mfp-newspaper" href="assets/images/Portfolio/portfolio-3.png" class="view-btn"><i class="fas fa-search-plus"></i></a>
                     </div>
@@ -389,7 +387,7 @@
                 <div class="portfolio-item image design">
                     <img src="assets/images/Portfolio/portfolio-4.png" alt="Portfolio-Image" />
                     <div class="content">
-                        <h4>graphic design</h4>
+                        <h4>Software</h4>
                         <p>category</p>
                         <a data-effect="mfp-newspaper" href="assets/images/Portfolio/portfolio-4.png" class="view-btn"><i class="fas fa-search-plus"></i></a>
                     </div>
@@ -397,7 +395,7 @@
                 <div class="portfolio-item image photography">
                     <img src="assets/images/Portfolio/portfolio-5.png" alt="Portfolio-Image" />
                     <div class="content">
-                        <h4>photography</h4>
+                        <h4>AI & Data Science</h4>
                         <p>category</p>
                         <a data-effect="mfp-newspaper" href="assets/images/Portfolio/portfolio-5.png" class="view-btn"><i class="fas fa-search-plus"></i></a>
                     </div>
@@ -406,7 +404,7 @@
                 <div class="portfolio-item image photography">
                     <img src="assets/images/Portfolio/portfolio-6.png" alt="Portfolio-Image" />
                     <div class="content">
-                        <h4>photography</h4>
+                        <h4>AI & Data Science</h4>
                         <p>category</p>
                         <a data-effect="mfp-newspaper" href="assets/images/Portfolio/portfolio-6.png" class="view-btn"><i class="fas fa-search-plus"></i></a>
                     </div>
@@ -422,7 +420,7 @@
 
 
     <!-------------------- Testimonials Area (Start) -------------------->
-    <section class="testimonial" id="testimonial">
+    <section style="display:none" class="testimonial" id="testimonial">
 
         <div class="heading">
             <h2><span>testimonials</span></h2>
@@ -532,7 +530,7 @@
 
 
     <!-------------------- Blog Area (Start) -------------------->
-    <section class="blog" id="blog">
+    <section style="display:none" class="blog" id="blog">
 
         <div class="heading">
             <h2>my <span>blog</span></h2>
@@ -722,7 +720,7 @@
         </div>
 
         <div class="content">
-            <p>created by <span>AS_Designs</span> | all rights reserved</p>
+            <p>created by <span>Greenfield Obasi</span> | all rights reserved</p>
         </div>
     </footer>
     <!-------------------- Footer Area (End) -------------------->
@@ -755,7 +753,7 @@
     <script>
         var typed = new Typed('.typing-text', {
 
-            strings: ['Web developer', 'web designer', 'photographer', 'graphic designer'],
+            strings: ['Software Engineer'],
             typeSpeed: 120,
             loop: true
         });
@@ -763,7 +761,7 @@
 
     <!-- Contact-Form Script -->
     <script>
-        jQuery('#contactUs-Form').on('submit',function(e){
+        jQuery('#contactUs-Form').on('submit', function(e){
           jQuery('#msg').html('');
           jQuery('#submit').html('Please wait');
           jQuery('#submit').attr('disabled',true);
